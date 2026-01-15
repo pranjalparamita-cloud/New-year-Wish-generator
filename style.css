@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    padding: 60px 20px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffd700;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffd700;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ffcc00;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255,255,255,0.1);
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 90%;
+}
+
+
+
+footer {
+    padding: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+/* 📱 Mobile Responsive Styles */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #countdown {
+        font-size: 18px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    li {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    button {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+}
